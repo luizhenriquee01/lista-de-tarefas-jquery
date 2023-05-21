@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+body {
+  background-color: rgb(47, 110, 110);
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+header img {
+  margin-left: 30px;
+}
+img {
+  max-width: 100px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  width: 100%;
+  font-size: 150px;
+}
+#botao-cadastrar {
+  background: green;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+#botao-redefinir {
+  background-color: #cf2121;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+#input-max {
+  width: 450px;
+}
+
+input,
+button {
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background-color: #fc6e51;
+  border: none;
+  margin: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35%;
+}
+
+ul li {
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.texto-sublinhado {
+  text-decoration: line-through;
+  color: #fc6e51;
+}
